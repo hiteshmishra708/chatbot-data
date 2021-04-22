@@ -4,7 +4,7 @@
         "answer": "Java is an object-oriented, high-level, general-purpose programming language originally designed by James Gosling and further developed by the Oracle Corporation. It is one of the most popular programming languages in the world. To know more about what is Java, Click here and know all the details of Java, Features, and Component."
     },
     {
-        "question": "Question:  Explain about Java Virtual Machine? ",
+        "question": "Explain about Java Virtual Machine? ",
         "answer": "JVM is a program that interprets the intermediate Java byte code and generates the desired output. It is because of byte code and JVM that programs written in Java are highly portable. \n"
     },
     {
