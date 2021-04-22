@@ -1,0 +1,278 @@
+[
+    {
+        "question": "Explain Python?",
+        "answer": "Python is a highly comprehensive, interactive, and object-oriented scriptwriting language. It is specifically developed with the purpose of making the content highly readable among the net surfers. Python makes use of various English keywords other than just punctuations. It also has lesser syntactical constructions like in other languages."
+    },
+    {
+        "question": "What are the distinct features of Python?",
+        "answer": "The distinct features of Python include the following.\nStructured and functional programmings are supported.\nIt can be compiled to byte-code for creating larger applications.\nDevelops high-level dynamic data types.\nSupports checking of dynamic data types.\nApplies automated garbage collection.\nIt could be used effectively along with Java, COBRA, C, C++, ActiveX, and COM."
+    },
+    {
+        "question": "What is Pythonpath?",
+        "answer": "A Pythonpath tells the Python interpreter to locate the module files that can be imported into the program. It includes the Python source library directory and source code directory."
+    },
+    {
+        "question": "Can we preset Pythonpath?",
+        "answer": "Yes, we can preset Pythonpath as a Python installer."
+    },
+    {
+        "question": "Why do we use Pythonstartup environment variable?",
+        "answer": "We use the Pythonstartup environment variable because it consists of the path in which the initialization file carrying Python source code can be executed to start the interpreter. "
+    },
+    {
+        "question": "What is the Pythoncaseok environment variable?",
+        "answer": "Pythoncaseok environment variable is applied in Windows with the purpose to direct Python to find the first case insensitive match in an import statement."
+    },
+    {
+        "question": "What are the supported standard data types in Python?",
+        "answer": "The supported standard data types in Python include the following.\nList.\nNumber.\nString.\nDictionary.\nTuples."
+    },
+    {
+        "question": "Define tuples in Python?",
+        "answer": "Tuples is a sequence data type in Python. The number of values in tuples are separated by commas."
+    },
+    {
+        "question": "What is the major difference between tuples and lists in Python?",
+        "answer": "The major difference between tuples and lists is that a list is mutable, whereas a tuple is immutable. This means that a list can be changed, but a tuple cannot."
+    },
+    {
+        "question": "What are the positive and negative indices?",
+        "answer": " In the positive indices are applied the search beings from left to the right. In the case of the negative indices, the search begins from right to left. For example, in the array list of size n the positive index, the first index is 0, then comes 1 and until the last index is n-1. However, in the negative index, the first index is -n, then -(n-1) until the last index will be -1."
+    },
+    {
+        "question": "What can be the length of the identifier in Python?",
+        "answer": "The length of the identifier in Python can be of any length. The longest identifier will violate from PEP – 8 and PEP – 20."
+    },
+    {
+        "question": "Define Pass statement in Python?",
+        "answer": "A Pass statement in Python is used when we cannot decide what to do in our code, but we must type something for making syntactically correct."
+    },
+    {
+        "question": "What are the limitations of Python?",
+        "answer": "There are certain limitations of Python, which include the following:\nIt has design restrictions.\nIt is slower when compared with C and C++ or Java.\nIt is inefficient in mobile computing.\nIt consists of an underdeveloped database access layer."
+    },
+    {
+        "question": "Do runtime errors exist in Python? Give an example?",
+        "answer": "Yes, runtime errors exist in Python. For example, if you are duck typing and things look like a duck, then it is considered as a duck even if that is just a flag or stamp or any other thing. The code, in this case, would be A Run-time error. For example, Print “Hackr io”, then the runtime error would be the missing parenthesis that is required by print ( )."
+    },
+    {
+        "question": "Can we reverse a list in Python?",
+        "answer": "Yes, we can reserve a list in Python using the reverse() method. The code can be depicted as follows.\ndef reverse(s): \n  str = \"\" \n  for i in s: \n    str = i + str\n  return str"
+    },
+    {
+        "question": "Why do we need a break in Python?",
+        "answer": "Break helps in controlling the Python loop by breaking the current loop from execution and transfer the control to the next block."
+    },
+    {
+        "question": "Why do we need a continue in Python?",
+        "answer": "A continue also helps in controlling the Python loop but by making jumps to the next iteration of the loop without exhausting it.\n"
+    },
+    {
+        "question": "Can we use a break and continue together in Python? How?",
+        "answer": " Break and continue can be used together in Python. The break will stop the current loop from execution, while jump will take to another loop."
+    },
+    {
+        "question": "Does Python support an intrinsic do-while loop?",
+        "answer": "No Python does not support an intrinsic do-while loop."
+    },
+    {
+        "question": "How many ways can be applied for applying reverse string?",
+        "answer": "There are five ways in which the reverse string can be applied which include the following.\nLoop\nRecursion\nStack\nExtended Slice Syntax\nReversed"
+    },
+    {
+        "question": "What are the different stages of the Life Cycle of a Thread?",
+        "answer": "The different stages of the Life Cycle of a Thread can be stated as follows.\nStage 1: Creating a class where we can override the run method of the Thread class.\nStage 2: We make a call to start() on the new thread. The thread is taken forward for scheduling purposes.\nStage 3: Execution takes place wherein the thread starts execution, and it reaches the running state.\nStage 4: Thread wait until the calls to methods including join() and sleep() takes place. \nStage 5: After the waiting or execution of the thread, the waiting thread is sent for scheduling.\nStage 6: Running thread is done by executing the terminates and reaches the dead state."
+    },
+    {
+        "question": "What is the purpose of relational operators in Python?",
+        "answer": "The purpose of relational operators in Python is to compare values."
+    },
+    {
+        "question": "What are assignment operators in Python?",
+        "answer": "The assignment operators in Python can help in combining all the arithmetic operators with the assignment symbol."
+    },
+    {
+        "question": "Why do we need membership operators in Python?",
+        "answer": "Answer:  We need membership operators in Python with the purpose to confirm if the value is a member in another or not."
+    },
+    {
+        "question": "How are identity operators different than the membership operators?",
+        "answer": "Unlike membership operators, the identity operators compare the values to find out if they have the same value or not."
+    },
+    {
+        "question": "Describe how multithreading is achieved in Python.",
+        "answer": "Even though Python comes with a multi-threading package, if the motive behind multithreading is to speed the code then using the package is not the go-to option.\nThe package has something called the GIL or Global Interpreter Lock, which is a construct. It ensures that one and only one of the threads execute at any given time. A thread acquires the GIL and then do some work before passing it to the next thread.\nThis happens so fast that to a user it seems that threads are executing in parallel. Obviously, this is not the case as they are just taking turns while using the same CPU core. Moreover, GIL passing adds to the overall overhead to the execution.\n\nHence, if you intend to use the threading package for speeding up the execution, using the package is not recommended."
+    },
+    {
+        "question": "Draw a comparison between the range and xrange in Python.",
+        "answer": "In terms of functionality, both range and xrange are identical. Both allow for generating a list of integers. The main difference between the two is that while range returns a Python list object, xrange returns an xrange object.\nXrange is not able to generate a static list at runtime the way range does. On the contrary, it creates values along with the requirements via a special technique called yielding. It is used with a type of object known as generators.\nIf you have a very enormous range for which you need to generate a list, then xrange is the function to opt for. This is especially relevant for scenarios dealing with a memory-sensitive system, such as a smartphone.\nThe range is a memory beast. Using it requires much more memory, especially if the requirement is gigantic. Hence, in creating an array of integers to suit the needs, it can result in a Memory Error and ultimately lead to crashing the program."
+    },
+    {
+        "question": "Explain Inheritance and its various types in Python?",
+        "answer": "Inheritance enables a class to acquire all the members of another class. These members can be attributes, methods, or both. By providing reusability, inheritance makes it easier to create as well as maintain an application.\nThe class which acquires is known as the child class or the derived class. The one that it acquires from is known as the superclass or base class or the parent class. There are 4 forms of inheritance supported by Python:\nSingle Inheritance – A single derived class acquires from on single superclass.\nMulti-Level Inheritance – At least 2 different derived classes acquire from two distinct base classes.\nHierarchical Inheritance – A number of child classes acquire from one superclass\nMultiple Inheritance – A derived class acquires from several superclasses."
+    },
+    {
+        "question": "Explain how is it possible to Get the Google cache age of any URL or webpage using Python.",
+        "answer": "In order to Get the Google cache age of any URL or webpage using Python, the following URL format is used:\nhttp://webcache.googleusercontent.com/search?q=cache:URLGOESHERE\nSimply replace URLGOESHERE with the web address of the website or webpage whose cache you need to retrieve and see in Python."
+    },
+    {
+        "question": "Give a detailed explanation about setting up the database in Django.",
+        "answer": "The process of setting up a database is initiated by using the command edit mysite/setting.py. This is a normal Python module with a module-level representation of Django settings. Django relies on SQLite by default, which is easy to be used as it doesn’t require any other installation.\n\nSQLite stores data as a single file in the filesystem. Now, you need to tell Django how to use the database. For this, the project’s setting.py file needs to be used. Following code must be added to the file for making the database workable with the Django project:\nDATABASES = {\n 'default': {\n 'ENGINE' : 'django.db.backends.sqlite3',\n 'NAME' : os.path.join(BASE_DIR, 'db.sqlite3'),\n }\n}\n\nIf you need to use a database server other than the SQLite, such as MS SQL, MySQL, and PostgreSQL, then you need to use the database’s administration tools to create a brand new database for your Django project.\nYou have to modify the following keys in the DATABASE ‘default’ item to make the new database work with the Django project:\nENGINE – For example, when working with a MySQL database replace ‘django.db.backends.sqlite3’ with ‘django.db.backends.mysql’\nNAME – Whether using SQLite or some other database management system, the database is typically a file on the system. The NAME should contain the full path to the file, including the name of that particular file.\nNOTE: - Settings like Host, Password, and User needs to be added when not choosing SQLite as the database.\nCheck out the advantages and disadvantages of Django.\n \nAdvanced Level Python Interview Questions for Experienced and Professionals"
+    },
+    {
+        "question": "How will you differentiate between deep copy and shallow copy?",
+        "answer": "We use a shallow copy when a new instance type gets created. It keeps the values that are copied in the new instance. Just like it copies the values, the shallow copy also copies the reference pointers.\nReference points copied in the shallow copy reference to the original objects. Any changes made in any member of the class affect the original copy of the same. Shallow copy enables faster execution of the program.\nDeep copy is used for storing values that are already copied. Unlike shallow copy, it doesn’t copy the reference pointers to the objects. Deep copy makes the reference to an object in addition to storing the new object that is pointed by some other object.\nChanges made to the original copy will not affect any other copy that makes use of the referenced or stored object. Contrary to the shallow copy, deep copy makes execution of a program slower. This is due to the fact that it makes some copies for each object that is called."
+    },
+    {
+        "question": "How will you distinguish between NumPy and SciPy?",
+        "answer": "Typically, NumPy contains nothing but the array data type and the most basic operations, such as basic element-wise functions, indexing, reshaping, and sorting. All the numerical code resides in SciPy.\nAs one of NumPy’s most important goals is compatibility, the library tries to retain all features supported by either of its predecessors. Hence, NumPy contains a few linear algebra functions despite the fact that these more appropriately belong to the SciPy library.\nSciPy contains fully-featured versions of the linear algebra modules available to NumPy in addition to several other numerical algorithms."
+    },
+    {
+        "question": "Python supports negative indexes. What are they and why are they used?",
+        "answer": "The sequences in Python are indexed. It consists of positive and negative numbers. Positive numbers use 0 as the first index, 1 as the second index, and so on. Hence, any index for a positive number n is n-1.\nUnlike positive numbers, index numbering for the negative numbers start from -1 and it represents the last index in the sequence. Likewise, -2 represents the penultimate index. These are known as negative indexes. Negative indexes are used for:\nRemoving any new-line spaces from the string, thus allowing the string to except the last character, represented as S[:-1]\nShowing the index to representing the string in the correct order"
+    },
+    {
+        "question": "What do you understand by monkey patching in Python?",
+        "answer": "The dynamic modifications made to a class or module at runtime are termed as monkey patching in Python. Consider the following code snippet:\n# m.py\nclass MyClass:\ndef f(self):\nprint \"f()\"\n\nWe can monkey-patch the program something like this:\nimport m\ndef monkey_f(self):\nprint \"monkey_f()\"\nm.MyClass.f = monkey_f\nobj = m.MyClass()\nobj.f()\n\nThe output for the program will be monkey_f().\nThe examples demonstrate changes made in the behavior of f() in MyClass using the function we defined i.e. monkey_f() outside of the module m."
+    },
+    {
+        "question": "What do you understand by the process of compilation and linking in Python?",
+        "answer": "In order to compile new extensions without any error, compiling and linking is used in Python. Linking initiates only and only when the compilation is complete.\nIn the case of dynamic loading, the process of compilation and linking depends on the style that is provided with the concerned system. In order to provide dynamic loading of the configuration setup files and rebuilding the interpreter, the Python interpreter is used."
+    },
+    {
+        "question": "What is Flask and what are the benefits of using it?",
+        "answer": "Flask is a web microframework for Python with Jinja2 and Werkzeug as its dependencies. As such, it has some notable advantages:\nFlask has little to no dependencies on external libraries\nBecause there is a little external dependency to update and fewer security bugs, the web microframework is lightweight to use.\nFeatures an inbuilt development server and a fast debugger."
+    },
+    {
+        "question": "What is the map() function used for in Python?",
+        "answer": "The map() function applies a given function to each item of an iterable. It then returns a list of the results. The value returned from the map() function can then be passed on to functions to the likes of the list() and set().\nTypically, the given function is the first argument and the iterable is available as the second argument to a map() function. Several tables are given if the function takes in more than one arguments."
+    },
+    {
+        "question": "What is Pickling and Unpickling in Python?",
+        "answer": "The Pickle module in Python allows accepting any object and then converting it into a string representation. It then dumps the same into a file by means of the dump function. This process is known as pickling.\nThe reverse process of pickling is known as unpickling i.e. retrieving original Python objects from a stored string representation."
+    },
+    {
+        "question": "Whenever Python exits, all the memory isn’t deallocated. Why is it so?",
+        "answer": "Upon exiting, Python’s built-in effective cleanup mechanism comes into play and try to deallocate or destroy every other object.\nHowever, Python modules that are having circular references to other objects or the objects that are referenced from the global namespaces aren’t always deallocated or destroyed.\nThis is because it is not possible to deallocate those portions of the memory that are reserved by the C library."
+    },
+    {
+        "question": "Explain memory managed in Python?",
+        "answer": "Python private heap space takes place of memory management in Python. It contains all Python objects and data structures. The interpreter is responsible to take care of this private heap and the programmer does not have access to it. The Python memory manager is responsible for the allocation of Python heap space for Python objects. The programmer may access some tools for the code with the help of the core API. Python also provides an inbuilt garbage collector, which recycles all the unused memory and frees the memory and makes it available to heap space."
+    },
+    {
+        "question": "What is the lambda function?",
+        "answer": "An anonymous function is known as a lambda function. This function can have only one statement but can have any number of parameters.\na = lambda x,y : x+y\nprint(a(5, 6))"
+    },
+    {
+        "question": "What are Python decorators?",
+        "answer": "A specific change made in Python syntax to alter the functions easily are termed as Python decorators."
+    },
+    {
+        "question": "Differentiate between list and tuple.",
+        "answer": "Tuple is not mutable it can be hashed eg. key for dictionaries. On the other hand, lists are mutable."
+    },
+    {
+        "question": "How are arguments passed in Python? By value or by reference?",
+        "answer": "All of the Python is an object and all variables hold references to the object. The reference values are according to the functions; as a result, the value of the reference cannot be changed."
+    },
+    {
+        "question": "What are the built-in types provided by the Python?",
+        "answer": "Answer:\nMutable built-in types:\nLists\nSets\nDictionaries\nImmutable built-in types:\nStrings\nTuples\nNumbers"
+    },
+    {
+        "question": "How a file is deleted in Python?",
+        "answer": "The file can be deleted by either of these commands:\nos.remove(filename)\nos.unlink(filename)"
+    },
+    {
+        "question": "What are Python modules?",
+        "answer": "A file containing Python code like functions and variables is a Python module. A Python module is an executable file with a .py extension.\nPython has built-in modules some of which are:\nos\nsys\nmath\nrandom\ndata time\nJSON"
+    },
+    {
+        "question": "What is the // operator? What is its use?",
+        "answer": "The // is a Floor Divisionoperator used for dividing two operands with the result as quotient displaying digits before the decimal point. For instance, 10//5 = 2 and 10.0//5.0 = 2.0."
+    },
+    {
+        "question": "What is the split function used for?",
+        "answer": "The split function breaks the string into shorter strings using the defined separator. It returns the list of all the words present in the string."
+    },
+    {
+        "question": "Explain the Dogpile effect.",
+        "answer": "The event when the cache expires and websites are hit by multiple requests made by the client at the same time. Using a semaphore lock prevents the Dogpile effect. In this system when value expires, the first process acquires the lock and starts generating new value."
+    },
+    {
+        "question": "What is a pass in Python?",
+        "answer": "No-operation Python statement refers to pass. It is a place holder in the compound statement, where there should have a blank left or nothing written there."
+    },
+    {
+        "question": "Is Python a case sensitive language?",
+        "answer": "Yes Python is a case sensitive language."
+    },
+    {
+        "question": "Define slicing in Python.",
+        "answer": "Slicing refers to the mechanism to select the range of items from sequence types like lists, tuples, strings."
+    },
+    {
+        "question": "What are docstring?",
+        "answer": "Docstring is a Python documentation string, it is a way of documenting Python functions, classes and modules."
+    },
+    {
+        "question": "What is [::-1} used for?",
+        "answer": "[::-1} reverses the order of an array or a sequence. However, the original array or the list remains unchanged.\nimport array as arr\nNum_Array=arr.array('k',[1,2,3,4,5])\nNum_Array[::-1]"
+    },
+    {
+        "question": "Define Python Iterators.",
+        "answer": "Group of elements, containers or objects that can be traversed."
+    },
+    {
+        "question": "How are comments written in Python?",
+        "answer": "Comments in Python start with a # character, they can also be written within docstring(String within triple quotes)"
+    },
+    {
+        "question": "How to capitalize the first letter of string?",
+        "answer": "Capitalize() method capitalizes the first letter of the string, and if the letter is already capital it returns the original string"
+    },
+    {
+        "question": "What is, not and in operators?",
+        "answer": "Operators are functions that take two or more values and returns the corresponding result.\nis: returns true when two operands are true\nnot: returns inverse of a boolean value\nin: checks if some element is present in some sequence."
+    },
+    {
+        "question": "How are files deleted in Python?",
+        "answer": "To delete a file in Python:\nImport OS module\nUse os.remove() function"
+    },
+    {
+        "question": "How are modules imported in Python?",
+        "answer": "Modules are imported using the import keyword by either of the following three ways:\nimport array \nimport array as arr\nfrom array import *"
+    },
+    {
+        "question": "What is monkey patching?",
+        "answer": "Dynamic modifications of a class or module at run-time refers to a monkey patch."
+    },
+    {
+        "question": "Does Python supports multiple inheritances?",
+        "answer": "Yes, in Python a class can be derived from more than one parent class."
+    },
+    {
+        "question": "What does the method object() do?",
+        "answer": "The method returns a featureless object that is base for all classes. This method does not take any parameters."
+    },
+    {
+        "question": "What is pep 8?",
+        "answer": "Python Enhancement Proposal or pep 8 is a set of rules that specify how to format Python code for maximum readability."
+    },
+    {
+        "question": "What is namespace in Python?",
+        "answer": "A naming system used to make sure that names are unique to avoid naming conflicts refers to as Namespace."
+    },
+    {
+        "question": "Is indentation necessary in Python?",
+        "answer": "Indentation is required in Python if not done properly the code is not executed properly and might throw errors. Indentation is usually done using four space characters."
+    },
+    {
+        "question": "Define a function in Python",
+        "answer": "A block of code that is executed when it is called is defined as a function. Keyword def is used to define a Python function."
+    },
+    {
+        "question": "Define self in Python",
+        "answer": "An instance of a class or an object is self in Python. It is included as the first parameter. It helps to differentiate between the methods and attributes of a class with local variables.\nConclusion\nSo, that sums up the list of best Python interview questions. Learning never gets easier, you need to get better. So, here are some top choices for Python books to double-check your Python preparation.\nAs a high-in-demand language used by Data Science candidates, learning Python is always a plus. So here is a suitable course to enhance your skills in Python: Python for Data Structures, Algorithms, and Interviews.\nYou can also have this comprehensive Python book for your interview reference. It helps you prepare the better way for upcoming interviews: Elements of Programming Interviews in Python: The Insiders' Guide.\nAll the best for your interview!\nPeople are also reading:\nBest Python Courses\nBest Python Certifications\nTop Python Projects\nBest Python IDE\nBest Python Interpreters\nBest way to learn python\nPython Conditional Statements\nBest Python IDE\nPython While Loop\nNumPy Matrix Multiplication\nWhat is Python Arrays?\n \n"
+    }
+]
